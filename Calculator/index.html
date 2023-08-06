@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--The lang attribute specifies the language of the content as English. -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Sets the viewport properties to adjust the page's dimensions to the device's width and sets the initial scale to 1.0 (no zoom).-->
+    <link rel="stylesheet" href="style.css" />
+    <!--This line links an external CSS file named "style.css" to the HTML document.-->
+    <title>Calculator </title>
+    <!--This sets the title of the web page, which appears in the browser's title bar or tab.-->
+</head>
+
+<!--The <body> element contains the visible content of the web page.-->
+
+<body>
+
+    <!--div class="container" used as a wrapper to center the calculator vertically and horizontally on the page using CSS-->
+    <div class="container">
+
+        <div class="calculator">
+            <!--dic class="calculator" holds all the calculator elements.-->
+            <input type="text" id="inputBox" placeholder="0" />
+            <div>
+                <!--The <button> elements are used to create the buttons.-->
+                <button class="button operator">AC</button>
+                <button class="button operator">DEL</button>
+                <button class="button operator">%</button>
+                <button class="button operator">/</button>
+            </div>
+            <div>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button operator">*</button>
+            </div>
+            <div>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button operator">-</button>
+            </div>
+            <div>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button operator">+</button>
+            </div>
+
+            <div>
+                <button class="button operator">x²</button>
+                <button class="button">0</button>
+                <button class="button decimal">.</button>
+                <button class="button equalBtn">=</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!--This line links an external JavaScript file named "script.js" to the HTML document. -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
